@@ -1,0 +1,280 @@
+/*
+Theme Name: BuddyX Child
+Theme URI: https://wbcomdesigns.com/downloads/buddyx-theme/
+Template: buddyx
+Author: wbcomdesigns,vapvarun
+Author URI: https://github.com/vapvarun/buddyx
+Description: BuddyX is an ideal theme for community and membership websites. Providing a solution to all kinds of communities. Thanks to it's BuddyPress support, your website can now have member profiles, send a private message, create groups and so much more. It is a lightweight, fully responsive, seo optimised, RTL &amp; translation ready theme. BuddyX provides support for WooCommerce, WC Vendors, LearnDash, LearnPress and Gamipress plugins. It is highly customizable and works perfectly with page builders such as Elementor and Gutenberg. BuddyX is perfect for creating social learning, marketplace and blogging websites using BuddyPress integration. BuddyX is built using the latest best practices for progressive web content and optimization. It is well tested with the latest BuddyPress version and popular BuddyPress addons. It is developed, maintained, and supported by Wbcom Designs.
+Tags: one-column,two-columns,left-sidebar,right-sidebar,footer-widgets,blog,translation-ready,buddypress,custom-colors,featured-images,full-width-template,theme-options,e-commerce
+Version: 4.4.1.1663145343
+Updated: 2022-09-14 08:49:02
+
+*/
+
+.buddyx-sub-header-test {
+    position: fixed !important;
+    left:0px !important;
+    top:0px !important;
+    z-index: 100 !important;
+    
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+   }
+   
+   ::-webkit-scrollbar {
+       display: none;
+     }
+     
+    
+   .container {
+       margin: 0px !important;
+       padding: 0px !important;
+       background-color: #F2F0EA !important;
+       max-width: 100vw !important;
+       padding: 0px !important;
+       margin-left: 10vw !important;
+
+   }
+   
+   #primary {
+    color: #28364A !important;
+    font-family: 'Open Sans', sans-serif;
+   
+   }
+   
+   h2, h3, h4, h5 {
+       font-family: 'Patrick Hand', cursive;
+       margin: 20px 60px 20px 60px;
+   }
+
+   h2 {
+    font-size: 70px;
+   }
+
+   h3 {
+    font-size: 20px;
+   }
+
+   h4 {
+    font-size: 25px;
+   }
+   
+   p {
+       margin: 20px 60px 20px 60px;
+       font-family: 'Open Sans', sans-serif;
+   }
+   
+   
+   #intro-box {
+       
+    width: 80vw;
+       color: #F05130;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding-top: 200px;
+       padding-bottom: 200px;
+       
+      
+
+   }
+
+   #intro-tekst {
+    
+    display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       width: 70vw;
+   }
+
+  
+
+   .backgroundimg {
+    background-image: url(./images/background.png) !important;
+    background-repeat: no-repeat !important;
+    width: 100% !important;
+    height: auto !important;
+    background-size: cover;
+   
+   }
+   
+   #knap1 {
+    width: 400px;
+       height:70px;
+       background-color:#F4C460;
+       border: #28364A 1px solid;
+       margin: 20px 60px 20px 60px !important;
+      border-radius: 5px;
+      display:flex;
+       justify-content:center;
+       align-items: center;
+       text-decoration: none !important;
+   }
+   
+  
+   
+   #member-offers {
+       background-color: #F2F0EA;
+       color:#28364A;
+       width: 80vw;
+       height: auto;
+       
+   
+   }
+   
+   #first-offer, #second-offer, #third-offer {
+       width: 80vw;
+       height:auto;
+       background-color: #FFFFFF;
+       padding-top: 20px;
+       margin-top: 20px;
+       margin-bottom: 10px;
+       display:flex;
+       justify-content:center;
+       align-items: center;
+   
+   }
+   
+   #offer1, #offer2, #offer3 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+   #img1, #img2, #img4 {
+       
+       height: 400px;
+       object-fit: contain;
+       padding: 30px;
+   }
+   
+   
+   #member-events {
+       background-color: #F2F0EA;
+       color:#28364A;
+       width: 80vw;
+       height: auto;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+   }
+   
+   #event {
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       background-color: #FFFFFF;
+       width:70vw;
+       height: auto;
+       margin-top: 30px;
+       margin-bottom: 30px;
+       
+   }
+   
+   #event-text {
+    padding: 30px;
+   }
+
+   #heading {
+       background-color: #28364A;
+       width: 80vw;
+       height:100px;
+       color: #FFFFFF;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+   }
+   
+   #img3 {
+       object-fit: cover !important;
+    height: 472px;
+      
+   }
+   
+   
+   
+   #sign-up {
+       background-color: #F2F0EA;
+       color:#28364A;
+       width: 80vw;
+       height: auto;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       flex-direction: column;
+   
+   
+   }
+   
+   .divider {
+       width: 14%;
+       background-color: #F05130;
+       height:5px;
+       margin: 20px;
+   }
+
+   .dotted-divider {
+        width: 70vw;
+        border-bottom: 4px dashed #28364A;
+        margin: 20px;
+        margin-bottom: 40px;
+        
+
+   }
+
+   .blanket {
+    border: #28364A solid 1px;
+    background-color: #FFFFFF;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 5px;
+   }
+
+
+   .entry-title {
+    color: #F05130 !important;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+
+   }
+
+   .site-sub-header {
+   display: none !important;
+
+   }
+
+   .site-header-wrapper {
+    display: none;
+   }
+
+   #signup_submit {
+    background-color: #F05130 !important;
+
+   }
+
+   .my-text {
+    font-family: 'Patrick Hand', cursive;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 30px;
+   }
+
+   #secondary {
+    display: none;
+
+   }
+
+ 
+  

@@ -1,0 +1,57 @@
+.login {
+    background: linear-gradient(180deg, #28364A 33%, #1E2939 100%);
+
+}
+
+.login .message {
+    background: #E48547;
+    border-left: none;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+.login #login_error {
+    background: #E48547;
+    border-left: none;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.login #loginform {
+    background: #F2F0EA;
+    border-radius: 20px;
+}
+
+.login #loginform input[type="submit"] {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 500;
+    border-radius: 4px !important;
+    border: 1px solid #54595f !important;
+    background-color: #F05130;
+}
+
+.popup-modal-login {
+    text-decoration: none;
+    color: #F05130;
+}
+
+.login #login #nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login #login p a {
+    font-size: 17px;
+    color: #7A7A7A;
+}
+
+.login #login .privacy-policy-page-link {
+    font-size: 17px;
+    color: #7A7A7A;
+    margin: 2em 0 1em;
+}

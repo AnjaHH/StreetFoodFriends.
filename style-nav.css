@@ -1,0 +1,19 @@
+#secondary .sticky-sidebar {
+    top: 32px !important;
+}
+
+.widget-area .widget {
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+.widget_nav_menu a {
+    border: solid 0px !important;
+}
+
+article {
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+
+
